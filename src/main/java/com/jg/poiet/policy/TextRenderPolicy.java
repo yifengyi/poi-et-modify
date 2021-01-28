@@ -2,11 +2,10 @@ package com.jg.poiet.policy;
 
 import com.jg.poiet.NiceXSSFWorkbook;
 import com.jg.poiet.XSSFTemplate;
-import com.jg.poiet.template.cell.CellTemplate;
 import com.jg.poiet.data.TextRenderData;
+import com.jg.poiet.template.cell.CellTemplate;
 import com.jg.poiet.util.StyleUtils;
 import org.apache.poi.xssf.usermodel.XSSFCell;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class TextRenderPolicy extends AbstractRenderPolicy<Object> {
 
